@@ -92,59 +92,12 @@ Una aplicación web interactiva para gestionar ingresos y egresos personales, de
 2. **Abrir** `index.html` en tu navegador preferido
 3. **¡Listo!** No requiere instalación de dependencias adicionales
 
-## 🎨 Personalización
-
-### Cambiar Formato de Moneda
-En `js/app.js`, modificar la función `formatoMoneda`:
-```javascript
-const formatoMoneda = (valor)=>{
-    return valor.toLocaleString('es-ES',{
-        style:'currency', 
-        currency:'USD', // Cambiar a USD, MXN, etc.
-        minimumFractionDigits:2
-    });
-}
-```
-
-### Modificar Estilos
-Editar `css/estilos.css` para personalizar:
-- Colores del tema
-- Tipografías
-- Espaciados y layouts
-- Efectos visuales
-
-## 🧪 Características Técnicas
-
-### Programación Orientada a Objetos
-- **Clase Base `Dato`**: Propiedades y métodos comunes
-- **Clase `Ingreso`**: Hereda de Dato, maneja ingresos con ID único
-- **Clase `Egreso`**: Hereda de Dato, maneja egresos con ID único
-
-### Gestión de Estado
-- Arrays globales para almacenar ingresos y egresos
-- Contadores estáticos para IDs únicos
-- Renderizado dinámico del DOM
-
-### Formateo Avanzado
-- Uso de `toLocaleString()` para formato de moneda y porcentajes
-- Soporte para diferentes locales y monedas
-- Formato consistente en toda la aplicación
-
 ## 🌐 Compatibilidad
 
 - **Navegadores Modernos**: Chrome, Firefox, Safari, Edge
 - **JavaScript ES6+**: Requiere soporte para clases y arrow functions
 - **Responsive**: Funciona en dispositivos móviles y de escritorio
 
-## 🤝 Contribuciones
-
-¡Las contribuciones son bienvenidas! Para contribuir:
-
-1. Fork del proyecto
-2. Crear rama para nueva característica (`git checkout -b feature/nueva-caracteristica`)
-3. Commit de cambios (`git commit -am 'Agregar nueva característica'`)
-4. Push a la rama (`git push origin feature/nueva-caracteristica`)
-5. Crear Pull Request
 
 ## 📝 Licencia
 
@@ -154,18 +107,13 @@ Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 
 Desarrollado como proyecto educativo para aprender JavaScript moderno y programación orientada a objetos.
 
----
+Henry Llontop Falcon 
 
-### 💡 Próximas Mejoras
-
-- [ ] Persistencia de datos en localStorage
-- [ ] Categorización de ingresos y egresos
-- [ ] Gráficos y estadísticas
-- [ ] Exportación de datos
-- [ ] Modo oscuro/claro
-- [ ] Múltiples monedas
-- [ ] Presupuestos por categoría
 
 ### 🐛 Reportar Problemas
 
 Si encuentras algún error o tienes sugerencias, por favor abre un issue en el repositorio del proyecto.
+
+### 🐛 Vista Previa
+<img width="1817" height="733" alt="image" src="https://github.com/user-attachments/assets/38235435-4de2-4fda-8852-fa7617cf4993" />
+
